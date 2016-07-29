@@ -1,6 +1,3 @@
-#Deploy this via cron.  00 04 * * * fdsadmin /home/fdsadmin/flatfile/flatfile.sh 2>&1 >> /tmp/flatfile.log
-
-
 #!/bin/bash
 date=$(date +%Y-%m-%d --date="1 days ago")
 
